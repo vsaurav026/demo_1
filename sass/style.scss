@@ -1,0 +1,106 @@
+@import "./abstract/_mixins.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#nav{
+
+    margin-bottom: -36px;
+}
+.nav-bar{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+
+    &_nav-bar__logo{
+        display: flex;
+        align-items: center;
+        display: flex;
+        margin-left: 5rem; 
+
+    }
+    &_nav-bar__links{
+        color: black;
+    margin-left: 1.25rem; 
+    text-decoration: none;
+    }
+    &_nav-bar__link{
+        color: black;
+    margin-left: 1.25rem; 
+    text-decoration: none;
+
+
+    }
+
+}
+.middle{
+    position: relative;
+    &_middle__background-image{ 
+    max-width: 100%;
+   height: auto;
+   position: absolute;
+   top: 20;
+   left: 200;
+   margin-top: 0;
+   }
+   &_middle__content{
+    position: relative; 
+    margin-top: 0.75rem; 
+    margin-top: 0.875rem; 
+    margin-bottom: 30px;
+    left: 18.5rem;
+    top: 155px;
+   }
+   &_middle__title{
+    color: #ffffff; 
+    font-size: 1.875rem;
+    line-height: 2.25rem; 
+    font-weight: 700; 
+    
+    
+   }
+   &_middle__title_subpart{
+      
+    color: #4bdeff; 
+    font-size: 1.875rem;
+    line-height: 2.25rem; 
+    font-weight: 700; 
+
+
+   }
+   &_middle__subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  &_middle__paragraph {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  &_middle__cta{
+    margin-top: 2.25rem; 
+  }
+  &_middle__button{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 2.25rem;
+    padding-right: 2.25rem; 
+    margin-top: 1.25rem; 
+    color: #ffffff; 
+    border-radius: 0.75rem; 
+    border-width: 2px; 
+    border-color: #4bdeff;
+    border-style: solid; 
+    text-decoration: none;
+    
+  }
+
+
+
+}
+
+
+

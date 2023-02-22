@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav_element {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .nav_element_nav-items {
+    align-items: center;
+    display: flex;
+    margin-left: 5rem; 
+   
+  }
+  
+  .nav_item_2{
+    color: black;
+    margin-left: 1.25rem; 
+    text-decoration: none;
+  }
+  .container{
+  
+    width: 100%;
+  }
+  .absolute{
+  
+    position: absolute;
+  }
+  #background-image{
+  
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+  }
+  
+  .image-items{
+    position: relative; 
+  margin-top: 0.75rem; 
+  margin-top: 0.875rem; 
+  margin-bottom: 30px;
+  
+  
+  
+  }
+  p{
+    color: #b6abe4;
+    margin-bottom: 10px;
+  }
+  
+  .text-phonepay{
+    color: #ffffff; 
+  font-size: 1.875rem;
+  line-height: 2.25rem; 
+  font-weight: 700; 
+  
+  
+  
+  }
+  .text-phonepay-sub{
+    color: #4bdeff; 
+    font-size: 1.875rem;
+    line-height: 2.25rem; 
+    font-weight: 700; 
+    
+  }
+  
+  .phonepe-beat{
+    color: #9476ce;
+    font-weight: 600; 
+  }
+  
+  .phonepe-button{
+    margin-top: 2.25rem; 
+  }
+  .phonepe-button-sub{
+    padding-top: 0.75rem;
+  padding-bottom: 0.75rem; 
+  padding-left: 2.25rem;
+  padding-right: 2.25rem; 
+  margin-top: 1.25rem; 
+  color: #ffffff; 
+  border-radius: 0.75rem; 
+  border-width: 2px; 
+  border-color: #4bdeff;
+  border-style: solid; 
+  text-decoration: none;
+  
+  }
+  
+  
+  
+  /*# sourceMappingURL=style.css.map */
